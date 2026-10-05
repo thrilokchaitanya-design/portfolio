@@ -1,0 +1,15 @@
+{
+  "head": { "titleIndex": "Thrilok Chaitanya • Computer Science Engineer", "titleProjects": "Thrilok Chaitanya • Projects", "titleAbout": "Thrilok Chaitanya • About", "titleContact": "Thrilok Chaitanya • Contact", "description": "B.Tech Computer Science and Engineering student at VIT-AP University. Software development, AI and ML, and cybersecurity." },
+  "nav": { "home": "Home", "projects": "Projects", "about": "About", "contact": "Contact", "success": "Success" },
+  "footer": { "title": "Let’s build something meaningful.", "button": "Contact me" },
+  "home": {
+    "hero": { "rating": "NEED TO BE FILLED", "subtitle": "COMPUTER SCIENCE ENGINEER <span class='text-white'>SOFTWARE DEVELOPER</span>", "avaible": "NEED TO BE FILLED", "button": "Contact me" },
+    "about": { "title": "Who am I?", "description": "<p>I’m Thrilok Chaitanya, a B.Tech Computer Science and Engineering student at VIT-AP University. I’m focused on software development, AI and ML, and cybersecurity.<br/><br/><strong>Programming:</strong> Python, Java, JavaScript, TypeScript, C/C++.<br/><strong>Frontend:</strong> React, Vite, TypeScript, Tailwind CSS, shadcn/ui.<br/><strong>Backend:</strong> FastAPI, REST APIs, WebSockets, SQLAlchemy.<br/><strong>Database:</strong> PostgreSQL.<br/><strong>Security:</strong> JWT, RBAC, network security, cybersecurity concepts.<br/><strong>AI / ML:</strong> machine learning, deep learning, multimodal AI, computer vision, NLP, ResNet. GraphSAGE is IN DEVELOPMENT.<br/><strong>Infrastructure:</strong> Docker, Git, GitHub, Nginx, CI/CD, AWS.<br/><strong>Networking:</strong> computer networks, monitoring, topology. OpenFlow and Ryu are IN DEVELOPMENT.<br/><br/>Experience and additional qualifications: NEED TO BE FILLED.</p>" },
+    "projects": { "title": "Projects", "button": "More" }, "testimonials": { "title": "Testimonials" }
+  },
+  "projects": { "title": "Projects" },
+  "about": { "title": "About Me", "about": { "title": "Let me introduce myself" }, "carreer": { "title": "Education & Certification" }, "questions": { "title": "More information" } },
+  "contact": { "title": "Get in touch", "form": { "name": { "label": "What’s your <span class='text-primary'>name</span>?", "placeholder": "Your name" }, "email": { "label": "What’s your <span class='text-primary'>email</span>?", "placeholder": "Your email" }, "message": { "label": "What’s your <span class='text-primary'>message</span>?", "placeholder": "Your message" }, "errors": { "name": "Please enter your name", "email": "Please enter an email", "emailValid": "Please enter a valid email" }, "button": { "default": "SEND", "load": "SENDING IN PROGRESS", "error": "ERROR" } }, "consultation": "Email and external contact links: NEED TO BE FILLED", "bookConsultation": "NEED TO BE FILLED" },
+  "success": { "title": "Message sent!", "text": "Thank you for reaching out.", "redirect": "You will be redirected to the homepage in ", "buttons": { "project": "PROJECTS", "home": "HOME" } },
+  "404": { "text": "The page you are looking for does not exist or has been moved.", "redirect": "You will be redirected to the homepage in ", "button": "Back to the homepage" }
+}
