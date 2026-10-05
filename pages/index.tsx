@@ -5,6 +5,7 @@ import CardProject from '@/components/CardProject';
 import DropUp from '@/components/DropUp';
 import Questions from '@/components/Questions';
 import SEO from '@/components/SEO';
+import TechText from '@/components/TechText';
 import Testimonials from '@/components/Testimonials';
 import { TypePaths, TypeProject, TypeQuestion, TypeTestimonial } from '@/data/types';
 import { LanguageContext } from '@/layout/default';
@@ -241,7 +242,18 @@ export default function Home({
               type={TYPOGRAPHY_TYPE.HEADING1}
               className="text-home w-full -translate-x-full whitespace-nowrap text-center opacity-0 sm:text-left"
             >
-              THRILOK
+              <TechText
+                text="THRILOK"
+                fontWeight={520}
+                fontSize={220}
+                color="#ffffff"
+                accentColor="#8bb4ff"
+                reach={110}
+                dashLength={3}
+                specks={6}
+                speed={0.65}
+                className="hero-tech-text"
+              />
             </Typography>
             <Typography
               ref={heroRefs.texts.lastName}
@@ -249,7 +261,18 @@ export default function Home({
               as={TYPOGRAPHY_TYPE.HEADING1}
               className="text-home w-full shrink translate-x-full self-end whitespace-nowrap text-center opacity-0 sm:text-left"
             >
-              CHAITANYA
+              <TechText
+                text="CHAITANYA"
+                fontWeight={520}
+                fontSize={220}
+                color="#ffffff"
+                accentColor="#8bb4ff"
+                reach={110}
+                dashLength={3}
+                specks={6}
+                speed={0.65}
+                className="hero-tech-text"
+              />
             </Typography>
             <div
               ref={heroRefs.texts.subtitle}
